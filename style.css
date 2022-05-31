@@ -22,7 +22,7 @@ body{
     font-weight:bolder;
 }
 
-#header-links a{
+a{
     text-decoration: none;
     color:inherit;
     margin:1em;
@@ -72,6 +72,11 @@ button{
     margin-top: 1em;
     font-size: 1.1em;
 }
+button:hover{
+    background-color: #2462c5;
+}
+
+
 
 #right-side
 {
@@ -83,6 +88,13 @@ button{
     background-color: #6d747d;
     margin: 2em;
     padding-left: 1em;
+    overflow: hidden;
+}
+
+#right-side img{
+    width: auto;
+    height: 120%;
+    overflow: hidden;
 }
 
 #section2{
@@ -113,6 +125,15 @@ button{
     border: 4px solid #3882f6;
     border-radius: 15px;
     margin: 0.5em;
+    
+}
+
+.randomSubtext-box img
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .randomSubtext-box .text{
@@ -124,6 +145,14 @@ button{
     align-items: center;
     background-color: #E5E7EB;
     color:#1F2937;
+    height: 35em;
+}
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
 }
 
 #quote .text{
@@ -135,6 +164,16 @@ button{
 #quote .author{
     font-size: 1.5em;
     text-align: right;
+}
+
+#quote img{
+    width: 400px;
+    margin:-3em
+}
+
+#quote .image{
+    height: 11em;
+    overflow: hidden;
 }
 
 #section4{

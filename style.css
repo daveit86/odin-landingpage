@@ -118,3 +118,21 @@ body{
 .randomSubtext-box .text{
     color: rgb(54, 54, 54);;
 }
+
+#section3{
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color:#1F2937;
+}
+
+#quote .text{
+    font-size:36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#quote .author{
+    font-size: 1.5em;
+    text-align: right;
+}

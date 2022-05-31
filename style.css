@@ -41,19 +41,36 @@ body{
 
 #section1{
     justify-content: center;
-    height: 26em;
     align-items: center;
 }
 
 .page-section{
     padding-left:10em;
     padding-right: 10em;
+    height: 30em;
 }
 
 #left-side{
     margin: 2em;
     width: 50%;
     padding-right: 1em;
+}
+
+#subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#left-side button{
+    padding: 0.5em;
+    width: 7em;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 7px;
+    color: inherit;
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 1.1em;
 }
 
 #right-side
@@ -66,4 +83,38 @@ body{
     background-color: #6d747d;
     margin: 2em;
     padding-left: 1em;
+}
+
+#section2{
+    flex-direction: column;
+    align-items: center;
+}
+
+#random-info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 1em;
+    margin-top: 0.5em;
+}
+
+.randomSubtext-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13em;
+    text-align: center;
+}
+
+
+.randomSubtext-box .image{
+    height: 10em;
+    width: 10em;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    margin: 0.5em;
+}
+
+.randomSubtext-box .text{
+    color: rgb(54, 54, 54);;
 }
